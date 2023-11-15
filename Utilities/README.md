@@ -5,10 +5,10 @@ Intended to be compiled with SJASM cross-compiler on a PC (https://github.com/Ko
 
 # TMSCOLOR.COM
 Pre-compiled binary for CP/M.
-
+```
   Usage: 'TMSCOLOR tb' where t & b are Hex digits corresponding to desired Text & Background colors
-	
-  Example: 'TMSCOLOR B1' sets Light-yellow Text on a Black Background; color table can be obtained from tms.asm equ definitions.
+  Example: 'TMSCOLOR B1' sets Light-yellow Text on a Black Background; color table can be obtained from below tms.asm equ definitions.
+```
 
 # utility-jlc.asm
 Z80 Assembler utility routines required to compile TMSCOLOR
