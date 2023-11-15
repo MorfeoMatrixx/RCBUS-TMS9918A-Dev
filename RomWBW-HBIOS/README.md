@@ -1,5 +1,5 @@
-## VRAM Memory Map Changes
-Here I propose some changes to the VRAM Memory Map used in **RomWBW HBIOS**, to allow direct compatibility with J.B.Langstrom's example code (run under VDU Console) and future utility programs to take advantage of Multicolor & Bitmap modes with minimum effort. 
+## TMS9918A VRAM Memory Map Changes
+Here I propose some changes to the VRAM Memory Map used in **RomWBW HBIOS** driver code, to allow direct compatibility with J.B.Langstrom's example code (run under VDU Console) and future utility programs to take advantage of Multicolor & Bitmap modes with minimum effort. 
 Current code at '**tms.asm**' sets the memory map differently than the standard published in TI's documentation.
 
 Below is a snipet from the modified **tms.asm** code showing some of the new memory map settings
@@ -19,4 +19,4 @@ TMS_INITVDU_REG_2:
 	.DB	$E1		; REG 7 - GREY ON BLACK
 ```
 
-The original '**tms.asm**' file in **'\Source\HBIOS\'** of RomWBW source code should be replaced with the file included here and the standard procedure to build and flash a Custom ROM should be used.
+The original '**tms.asm**' file in **'\Source\HBIOS\'** of RomWBW source code distribution should be replaced with the file included here and the standard procedure to build and flash a Custom ROM should be used.
