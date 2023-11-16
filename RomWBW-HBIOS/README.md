@@ -19,4 +19,4 @@ TMS_INITVDU_REG_2:
 	.DB	$E1		; REG 7 - GREY ON BLACK
 ```
 
-The original '**tms.asm**' file in **'\Source\HBIOS\'** of RomWBW source code distribution should be replaced with the file included here and the standard procedure to build and flash a Custom ROM should be used.
+The original '**tms.asm**' file in **'\Source\HBIOS\'** of RomWBW source code distribution should be replaced with the file included here and the standard procedure to build and flash a Custom ROM should be used. Changes where based on Wayne's V3.3-Dev7 but should be compatible with newer versions since this driver hasn't been changed except for adding VGARC card compatibility in recent V3.4-DevXX.
